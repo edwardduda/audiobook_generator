@@ -1,3 +1,11 @@
 pymupdf>=1.24.0
 wordfreq>=3.1.0
 pytest>=8.0.0
+chatterbox-tts==0.1.7
+# DramaBox (MLX, Apple Silicon); requires Python 3.13+.
+mlx-speech==0.5.3
+# Perth (Chatterbox watermarking) still imports pkg_resources.
+setuptools>=65,<81
+httpx>=0.27,<1
+python-dotenv>=1,<2
+datasets>=3,<5

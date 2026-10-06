@@ -1,4 +1,7 @@
 .venv/
+.cache/
+outputs/
+models/
 __pycache__/
 .pytest_cache/
 *.pyc
@@ -6,3 +9,17 @@ __pycache__/
 *.txt
 *.ini
 /tests
+
+# Local credentials and generated reference audio
+.env
+.env.*
+!.env.example
+voices/libritts_r/
+!requirements.txt
+!/tests/
+!/tests/*.py
+!pytest.ini
+!prompts/*.txt
+!samples/audiobook_smoke.txt
+!samples/dramabox_expressive.txt
+.venv-py311/
